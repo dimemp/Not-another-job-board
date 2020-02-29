@@ -94,6 +94,10 @@ a:focus {
 
 /*--- Jobs section ---*/
 
+#section-open-positions {
+    min-height: 8rem;
+}
+
 .job-listing {
     padding-top: 2.2rem;
     padding-bottom: 2.2rem;
@@ -135,10 +139,6 @@ a:focus {
     position: absolute; 
     left: -1000px; 
     top: -1000px;
-}
-
-.empty-link {
-
 }
 
 /*--- Footer section ---*/
