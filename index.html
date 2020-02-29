@@ -1,0 +1,114 @@
+<!Doctype html>
+<html lang="en">
+     <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Get exposure to my personal network by posting job offers">
+        <meta name="author" content="">
+        <meta property="og:url" content="Your website link"/>
+        <meta property="og:type" content="website"/>
+        <meta property="og:title" content="Use my personal network"/>
+        <meta property="og:site_name" content="Use my personal network"/>
+        <meta property="og:description" 
+                content="Get exposure to my personal network for your job offer or search for a co-founder to start a venture."
+        />
+        <meta property="og:image" content="content/img/facebook.png"/>
+        <title>Use my personal network</title>
+        <!-- Favicon-->
+        <link rel="shortcut icon" href="content/img/favicon.png">
+        <!-- Bootstrap Core CSS -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="css/custom.css">
+    </head>
+    <body>
+
+    <!-- Navigation Bar Section -->
+    <nav class="navbar navbar-toggleable-md d-none d-md-block navbar-light py-5">
+        <div class="container">
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link mr-3 pt-3" href="faq.html">FAQ</a>
+                    <a class="nav-item nav-link btn-call-to-action" id="btn-post-job" href="Your post a job form public/share link" target="_blank">Post a job</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="jumbotron welcome-section mt-5 mt-md-0 pb-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-8 welcome-section-title mb-4">
+                    <h1 class="title-welcome mt-4 mb-3">Just another job board</h1>
+                    <p class="mb-4">Are you looking for co-founders, employees or students looking for a Ph.D. position? Learn more in the <a href="faq.html">FAQ page</a>. If you want to publish a job position it's free and it works as first in first served policy.</p>
+                    <!-- Social share buttons -->
+                    <div class="col-12 mb-0 pl-0">
+                        <ul class="p-0 m-0">
+                            <li class="d-inline list-unstyled">
+                                <a class="btn mr-2" target="_blank" id="linkedin-btn" href=""><img class="mr-2 btn-social-media-img" src="content/img/linkedin.svg" width="15px" height="15px" alt="linkedin-logo">Share on LinkedIn
+                                </a> 
+                            </li>
+                            <li class="d-inline list-unstyled">
+                                <input type="url" class="form-control input-copy-url">
+                                <a class="btn btn-copy-url" type="button"><img class="mr-2 btn-social-media-img" src="content/img/link.svg" width="15px" height="15px" alt="link-image"><span id="share-link-text">Share the link</span><span class="d-none" id="copied-alert-message">Link copied</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Mobile version post a job button -->
+                    <div class="w-100 fixed-bottom d-md-none">
+                        <div class="row mobile-call-to-action">
+                            <div class="col-12">
+                                <a class="btn-call-to-action d-sm-none" id="btn-post-job-mobile" href="Your post a job form public/share link" target="_blank">Post a job</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            
+        </div>
+    </header>
+
+    <!-- Jobs openings -->
+    <section class="section-open-positions">
+        <div class="container">
+
+            <div class="col-12 col-md-7 pb-0 pb-md-5 pl-xl-0">
+                <div class="col-12 pl-0 mb-0" id="items">
+                    <ul data-sheet-best="Your sheetbest API key" class="ml-0 list-unstyled">
+            
+                        <li class="job-listing">
+                            <div class="col-12">
+                                <h3 class="post-title">
+                                    {{Job title}} | {{Position type}}
+                                </h3>
+                                <h6 class="post-subtitle"><a class="link-job-position" href="{{Your company or organization website}}" target="_blank">{{Your company or organization name}}</a> {{City or remote}}</h6>
+                                <h6 class="post-subtitle"><a class="link-job-position" href="{{Job post link with more information}}" target="_blank">more info</a></h6>
+                                <h6 class="post-meta text-right">{{Χρονική σήμανση}}</h6>
+                            </div>
+                        </li>
+           
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="container pt-4 pb-md-4 pb-6 mb-3 mb-md-0" id="section-footer" role="contentinfo">
+        <div class="col-12 footer-copyrights text-center">
+            <p class="mb-2">2020-2025 All rights reserved ©</p>
+        </div>
+    </footer>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/handledata.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/custom.js"></script>
+
+  </body>
+</html>
