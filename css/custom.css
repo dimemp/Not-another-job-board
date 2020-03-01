@@ -83,6 +83,11 @@ a:focus {
     font-weight: 900;
 }
 
+#creator-name {
+    font-size: 0.9rem;
+    color: #b3b3b1;
+}
+
 #btn-post-job-mobile {
     display: block;
     text-align: center;
