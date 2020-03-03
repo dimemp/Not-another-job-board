@@ -10,7 +10,7 @@ Make your own Job Board to help your network:
 
 ### Make a page similar to Not Another Job Board
 
-You can find a how-to blog post on how you can make a Job Board page on your own. Coding skills are NOT required! [Find it here!](https://medium.com/@konstantinosgkovedaros/ad0ad8f32ce0)
+You can find a how-to blog post on how you can make a Job Board page on your own. Coding skills are NOT required! [Find it here!](https://medium.com/@konstantinosgkovedaros/do-you-need-a-personal-job-board-ad0ad8f32ce0)
 
 ### Support & new feature inquiries
 
